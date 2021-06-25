@@ -1,10 +1,11 @@
 import React from 'react'
+import "../css/footer.css"
 
 const Footer = () => {
 
     const d = new Date()
     return (
-        <div>
+        <div className="footer">
             <p>
                 Copyright &copy; {d.getFullYear()}
             </p>

@@ -1,0 +1,86 @@
+.container {
+    margin-top: 10%;
+    width: 90%;
+    background-color: rgb(243, 242, 242);
+    margin: 10px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 22%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.7s;
+    text-align: center;
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+}
+
+.today-deaths{
+    background-color: #d45;
+}
+
+.today-recovered{
+    background-color: #4c5;
+}
+
+.today-cases{
+    background-color: #ea5;
+}
+
+.critical-cases{
+    background-color: rgb(212, 85, 11);
+}
+
+.total-deaths{
+    background-color: #e23;
+}
+
+.total-recovered{
+    background-color: #2e3;
+}
+
+.total-cases{
+    background-color: #ed3;
+}
+
+.total-active{
+    background-color: #a98;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 100%;
+    }
+
+    .heading {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}

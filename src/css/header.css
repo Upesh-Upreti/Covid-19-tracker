@@ -1,6 +1,11 @@
 .head-line{
+    font-size: 0.7rem;
     text-align: center;
     background-color: #6655ee;
     color: aliceblue;
     padding: 0.5rem 0;
+}
+.flag{
+    width: 7vw;
+    height:5vw;
 }
